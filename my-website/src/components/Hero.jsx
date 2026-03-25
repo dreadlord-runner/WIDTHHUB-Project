@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-primary min-h-[80vh] flex items-center px-10">
+    <section className="bg-primary min-h-[90vh] flex items-center px-10">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Text Content*/}
         <div className="text-white space-y-6">
