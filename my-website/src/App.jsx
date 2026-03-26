@@ -2,6 +2,7 @@ import Hero from "./components/Hero.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Stats from "./components/Stats.jsx";
 import Services from "./components/Services.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <Hero />
       <Stats />
       <Services />
+      <Footer />
 
-      {/** Footer is next! */}
+      {/** Other Componentds */}
     </div>
   );
 }
