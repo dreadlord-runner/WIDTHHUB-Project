@@ -3,10 +3,10 @@ import {
   CalendarArrowUp,
   ScrollText,
   BarChart3,
-  LampDesk,
   Clock,
   FolderCode,
   Clipboard,
+  Briefcase,
 } from "lucide-react";
 
 const Services = () => {
@@ -14,7 +14,7 @@ const Services = () => {
     {
       title: "Career Advice",
       desc: "Accumsan ligula tincidunt duis dolor netus urna luctus mauris.",
-      icon: <LampDesk size={40} className="text-white" />,
+      icon: <Briefcase size={40} className="text-white" />,
     },
     {
       title: "Job Search Tips",
@@ -54,31 +54,33 @@ const Services = () => {
         {/*Section Header */}
 
         <div className="text-center mb-16 space-y-4">
-          <div className="border border-blue-400 inline-block bg-blue-950 pr-3 pl-3 pt-0.5 pb-0.5 rounded-lg">
+          <div className="border border-blue-400 inline-block bg-[#000924] pr-3 pl-3 pt-0.5 pb-0.5 rounded-lg">
             <h4 className="text-white font-bold uppercase tracking-widest text-sm">
               Seamless Onboarding Experience
             </h4>
           </div>
-          <h2 className="text-4xl font-extrabold text-white">
-            Streaming Hiring, One Click At A Time
-          </h2>
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight ">
+              Streaming Hiring, One Click At A Time
+            </h2>
+          </div>
         </div>
 
-        {/*Serices Grid */}
+        {/*Services Flex Container */}
         <div className="flex flex-wrap justify-center gap-x-12 gap-y-16">
           {serviceList.map((services, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex-col items-center text-center"
+              className="w-full sm:w-[45%] lg:w-[21%] flex flex-col items-center text-center group"
             >
-              <div className="mb-6 p-4 bg-blue-500 rounded-xl inline-block">
+              <div className="mb-6 w-20 h-20 bg-blue-600 rounded-3xl flex items-center justify-center shadow-2xl shadow-blue-500/20 border border-blue-400/30">
                 {services.icon}
               </div>
 
-              <h3 className="text-xl font-bold text-primary mb-3">
-                {services.title}
-              </h3>
-              <p className="text-gray-500 leading-relaxed">{services.desc}</p>
+              <h3 className="text-xl font-bold mb-3">{services.title}</h3>
+              <p className="text-gray-400 text-sm leading-relaxed max-w-62.5">
+                {services.desc}
+              </p>
             </div>
           ))}
         </div>
