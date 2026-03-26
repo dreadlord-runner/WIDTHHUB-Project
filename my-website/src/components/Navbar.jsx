@@ -7,7 +7,7 @@ const Navbar = () => {
         WIDTH<span className="text-accent">HUB</span>
       </div>
 
-      <ul className="hidden md:flex space-x-8 font-semibold text-primary">
+      <ul className="hidden md:flex space-x-8 font-semibold text-primary uppercase">
         <li className="cursor-pointer hover:text-accent">Home</li>
         <li className="cursor-pointer hover:text-accent">About Us</li>
         <li className="cursor-pointer hover:text-accent">Blog</li>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <li className="cursor-pointer hover:text-accent">Contact Us</li>
       </ul>
 
-      <button className="rounded-full bg-primary px-6 py-2 font-bold text-white transition-all hover:opacity-90 cursor-pointer">
+      <button className="rounded-full bg-primary px-6 py-2 font-bold text-white transition-all hover:opacity-90 cursor-pointer uppercase">
         Get Started
       </button>
     </nav>

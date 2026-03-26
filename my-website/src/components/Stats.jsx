@@ -16,7 +16,7 @@ const Stats = () => {
         <h1 className="text-5xl font-semibold text-black font-sans leading-tight">
           Find your passion, fuel your success
         </h1>
-        <button className="rounded-full bg-primary px-6 py-2 font-bold text-white transition-all hover:opacity-90 cursor-pointer">
+        <button className="rounded-full bg-primary px-6 py-2 font-bold text-white transition-all hover:opacity-90 cursor-pointer uppercase">
           View Jobs
         </button>
       </div>

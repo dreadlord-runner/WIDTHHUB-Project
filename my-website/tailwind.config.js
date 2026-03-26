@@ -7,6 +7,7 @@ export default {
         primary: "#0a1d37",
         accent: "#ff7e21",
         softGray: "#f4f7fa",
+        deepNavy: "#051129",
       },
     },
   },

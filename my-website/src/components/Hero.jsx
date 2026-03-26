@@ -6,9 +6,11 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Text Content*/}
         <div className="text-white space-y-6">
-          <h4 className="text-accent font-bold tracking-widest capitalize text-sm">
-            Discover, Engage, Empower
-          </h4>
+          <div className="border inline-block border-accent pl-3 pr-3 pb-0.5 rounded-lg">
+            <h4 className="text-accent font-bold tracking-widest capitalize text-sm">
+              Discover, Engage, Empower
+            </h4>
+          </div>
           <h1 className="text-5xl md:text-7xl font-extrabold leading-tight capitalize">
             Unlocking Potential, <br /> One Hire At a Time
           </h1>
@@ -18,10 +20,10 @@ const Hero = () => {
             tools.
           </p>
           <div className="flex space-x-4">
-            <button className="bg-accent text-white px-8 py-4 rounded-lg font-bold hover:brightness-110 cursor-pointer">
+            <button className="bg-accent text-white px-8 py-4 rounded-lg font-bold hover:brightness-110 cursor-pointer uppercase">
               Get a Quote
             </button>
-            <button className="border border-white/30 text-white px-8 py-4 rounded-lg font-bold hover:bg-white/10 cursor-pointer">
+            <button className="border border-white/30 text-white px-8 py-4 rounded-lg font-bold hover:bg-white/10 cursor-pointer uppercase">
               Explore Services
             </button>
           </div>
