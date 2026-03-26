@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between bg-softGray px-10 py-5 shadow-md">
+    <nav className="top-0 z-50 flex items-center justify-between bg-softGray px-10 py-5 shadow-md">
       <div className="text-2xl font-bold text-primary cursor-pointer">
         WIDTH<span className="text-accent">HUB</span>
       </div>
