@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
 
       {/*------------- Main Navbar----------- */}
-      <nav className="flex items-center justify-between px-10 py-5 bg-transparent">
+      <nav className="flex items-center justify-between px-10 py-5 bg-[#eaf4ff]">
         {/*----------logo-------- */}
         <div className="flex items-center space-x-2">
           <div className="text-primary animate-[spin_3s_linear_infinite]">
