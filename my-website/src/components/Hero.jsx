@@ -4,10 +4,10 @@ import { RxSlider } from "react-icons/rx";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-b from-[#eaf4ff] to-[#ffd7c8] min-h-[90vh] overflow-hidden pt-10">
-      <div className="max-w-7xl mx-auto px-10 relative">
+    <section className="relative bg-gradient-to-b from-[#eaf4ff] to-[#ffd7c8] min-h-[70vh] overflow-hidden pt-10">
+      <div className="max-w-7xl mx-auto px-10 pb-20 relative">
         {/*----- Left Side 3D Avatars---------*/}
-        <div className="hidden lg:block absolute bottom-0 -left-10 w-[45%] max-w-[650px] z-10 pointer-events-none">
+        <div className="hidden lg:block absolute bottom-0 -pb-80 -left-10 w-[45%] max-w-[650px] z-10 pointer-events-none">
           <img
             src="..\images\Home-3-Banner-img-01.png"
             alt="3D Characters"
@@ -52,51 +52,50 @@ const Hero = () => {
               </div>
             </button>
 
-            <button className="bg-primary text-white pl-6 pr-2 py-2 rounded-xl font-bold flex items-center justify-between space-x-4 hover:bg-opacity-90 transition-all shadow-lg cursor-pointer">
+            <button className="bg-primary text-white pl-6 pr-2 py-2 rounded-xl font-bold flex items-center justify-between space-x-4 hover:bg-opacity-90 transition-all shadow-lg cursor-pointer border border-blue-400">
               <span className="text-sm uppercase">Explore Services</span>
               <div className="bg-blue-600 p-2 rounded-lg">
                 <ArrowUpRight size={16} className="stroke-5" />
               </div>
             </button>
           </div>
-        </div>
 
-        {/* ---Sponsored Section--- */}
-        <div className="mt-20 pb-16 w-full overflow-hidden fade-edges">
-          {" "}
-          <h3 className="text-primary text-2xl font-bold mb-8 text-center">
-            Your Trusted Allies In Growth
-          </h3>
-          <div className="flex animate-scroll whitespace-nowrap">
-            <div className="flex items-center gap-12 md:gap-24 px-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-              <span className="text-2xl font-extrabold text-gray-800">
-                GrowTech
-              </span>
-              <span className="text-2xl font-bold text-gray-800 border-gray-800 pl-2">
-                Millandry
-              </span>
-              <span className="text-2xl font-serif italic font-bold text-gray-800">
-                Invest
-              </span>
-              <span className="text-2xl font-black tracking-tighter text-gray-800">
-                DW
-              </span>
-            </div>
+          {/* ---Sponsored Section--- */}
+          <div className="mt-10 w-[500px] overflow-hidden fade-edges">
+            <h3 className="text-primary text-2xl font-bold mb-8 text-center">
+              Your Trusted Allies In Growth
+            </h3>
+            <div className="flex animate-scroll whitespace-nowrap">
+              <div className="flex items-center gap-12 md:gap-24 px-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+                <span className="text-2xl font-extrabold text-gray-800">
+                  GrowTech
+                </span>
+                <span className="text-2xl font-bold text-gray-800 border-gray-800 pl-2">
+                  Millandry
+                </span>
+                <span className="text-2xl font-serif italic font-bold text-gray-800">
+                  Invest
+                </span>
+                <span className="text-2xl font-black tracking-tighter text-gray-800">
+                  DW
+                </span>
+              </div>
 
-            {/* Duplicate Set For Motion Animation */}
-            <div className="flex items-center gap-12 md:gap-24 px-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-              <span className="text-2xl font-extrabold text-gray-800">
-                GrowTech
-              </span>
-              <span className="text-2xl font-bold text-gray-800  border-gray-800 pl-2">
-                Millandry
-              </span>
-              <span className="text-2xl font-serif italic font-bold text-gray-800">
-                Invest
-              </span>
-              <span className="text-2xl font-black tracking-tighter text-gray-800">
-                DW
-              </span>
+              {/* Duplicate Set For Better Motion */}
+              <div className="flex items-center gap-12 md:gap-24 px-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+                <span className="text-2xl font-extrabold text-gray-800">
+                  GrowTech
+                </span>
+                <span className="text-2xl font-bold text-gray-800  border-gray-800 pl-2">
+                  Millandry
+                </span>
+                <span className="text-2xl font-serif italic font-bold text-gray-800">
+                  Invest
+                </span>
+                <span className="text-2xl font-black tracking-tighter text-gray-800">
+                  DW
+                </span>
+              </div>
             </div>
           </div>
         </div>
