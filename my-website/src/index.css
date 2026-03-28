@@ -16,6 +16,41 @@
   }
 }
 
+@keyframes featureBlobFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(34px, -22px, 0) scale(1.04);
+  }
+}
+
+@keyframes featureBlobMorph {
+  0%,
+  100% {
+    border-radius: 34% 66% 18% 82% / 24% 30% 70% 76%;
+  }
+  35% {
+    border-radius: 48% 52% 26% 74% / 35% 42% 58% 65%;
+  }
+  70% {
+    border-radius: 38% 62% 15% 85% / 28% 36% 64% 72%;
+  }
+}
+
+@keyframes featureGlowPulse {
+  0%,
+  100% {
+    opacity: 0.24;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.42;
+    transform: scale(1.08);
+  }
+}
+
 .animate-scroll {
   display: flex;
   width: max-content;
@@ -42,4 +77,23 @@
     black 85%,
     transparent 100%
   );
+}
+
+.feature-avatar-blob-wrapper {
+  filter: drop-shadow(0 34px 75px rgba(37, 99, 235, 0.18));
+  animation: featureBlobFloat 8s ease-in-out infinite;
+}
+
+.feature-avatar-blob {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, #2f80ff 0%, #1f62ea 52%, #2f4d93 100%);
+  animation: featureBlobMorph 10s ease-in-out infinite;
+}
+
+.feature-avatar-glow {
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(96, 165, 250, 0.55) 0%, rgba(59, 130, 246, 0.18) 45%, rgba(59, 130, 246, 0) 75%);
+  filter: blur(12px);
+  animation: featureGlowPulse 6s ease-in-out infinite;
 }

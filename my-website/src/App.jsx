@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Stats from "./components/Stats.jsx";
 import Services from "./components/Services.jsx";
 import Footer from "./components/Footer.jsx";
+import FeatureOne from "./components/FeatureOne.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Stats />
       <Services />
+      <FeatureOne />
       <Footer />
 
       {/** Other Componentds */}
