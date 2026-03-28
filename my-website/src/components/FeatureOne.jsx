@@ -73,7 +73,7 @@ const FeatureOne = () => {
 
           <div className="relative flex min-h-[620px] justify-center lg:justify-end">
             <div className="pointer-events-none absolute inset-0 overflow-visible">
-              <div className="feature-avatar-blob-wrapper absolute right-[-280px] bottom-1 hidden h-[500px] w-[500px] -translate-x-1/2 lg:block">
+              <div className="feature-avatar-blob-wrapper absolute right-[-280px] bottom-10 hidden h-[500px] w-[500px] -translate-x-1/2 lg:block">
                 <div className="feature-avatar-blob h-full w-full"></div>
               </div>
               <div className="feature-avatar-glow absolute right-[-80px] top-[18%] hidden h-[320px] w-[320px] lg:block"></div>
