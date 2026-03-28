@@ -30,11 +30,11 @@ const FeatureOne = () => {
           </h2>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-2 rounded-2xl border border-gray-200 bg-white p-2 pl-3 pr-3 shadow-sm">
-            <button className="-m-1 -ml-2 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-700 px-12 py-5 font-medium text-white shadow-md transition-all">
+            <button className="-m-1 -ml-2 rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-700 px-12 py-5 font-medium text-white shadow-md transition-all cursor-pointer">
               REMOTE WORKFORCE
             </button>
 
-            <button className="-m-1 -ml-2 rounded-2xl px-12 py-5 font-medium text-blue-700 transition-all">
+            <button className="-m-1 -ml-2 rounded-2xl px-12 py-5 font-medium text-blue-700 transition-all cursor-pointer">
               MARKET EXPANSION
             </button>
           </div>

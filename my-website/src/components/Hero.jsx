@@ -45,7 +45,7 @@ const Hero = () => {
 
           {/*----------Buttons--------- */}
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <button className="bg-blue-600 text-white pl-6 pr-2 py-2 rounded-xl font-bold flex items-center justify-between space-x-4 hover:bg-blue-700 transition-all shadow-lg shadow-blue-600/30 cursor-pointer">
+            <button className="bg-gradient-to-b from-blue-600 to-blue-900 text-white pl-6 pr-2 py-2 rounded-xl font-bold flex items-center justify-between space-x-4 hover:bg-blue-400 transition-all shadow-lg shadow-blue-600/30 cursor-pointer">
               <span className="text-sm uppercase">Get a quote</span>
               <div className="bg-primary p-2 rounded-lg">
                 <ArrowUpRight size={16} className="stroke-5" />
