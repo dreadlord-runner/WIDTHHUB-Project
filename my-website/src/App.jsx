@@ -6,6 +6,7 @@ import Footer from "./components/Footer.jsx";
 import FeatureOne from "./components/FeatureOne.jsx";
 import FeatureTwo from "./components/FeatrueTwo.jsx";
 import LogoGrid from "./components/LogoGrid.jsx";
+import ClientExperience from "./components/ClientExperience.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <FeatureOne />
       <FeatureTwo />
       <LogoGrid />
+      <ClientExperience />
       <Footer />
 
       {/** Other Componentds */}
