@@ -21,9 +21,9 @@ const LogoGrid = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-[#eaf4ff] overflow-hidden">
+    <section className="py-24 bg-gradient-to-b from-blue-100 to-blue-200 overflow-hidden">
       <div className="max-w-5xl mx-auto px-10 flex flex-col items-center">
-        <div className="mb-6 flex w-max items-center space-x-2 rounded-lg border border-blue-300 bg-blue-100 px-4 pb-0.5 text-sm font-semibold text-blue-600">
+        <div className="mb-6 flex w-max items-center space-x-2 rounded-lg border border-blue-300 bg-white/50 px-4 pb-0.5 text-sm font-semibold text-blue-600">
           <RxSlider size={16} className="stroke-1 mt-0.5" />
           <span>Together, We Achieve More</span>
           <RxSlider size={16} className="stroke-1 mt-0.5" />

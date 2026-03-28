@@ -4,7 +4,7 @@ import { RxSlider } from "react-icons/rx";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-b from-[#eaf4ff] to-[#ffd7c8] min-h-[70vh] overflow-hidden pt-10">
+    <section className="relative bg-gradient-to-b from-blue-100 to-blue-200 min-h-[70vh] overflow-hidden pt-10">
       <div className="max-w-7xl mx-auto px-10 pb-20 relative">
         {/*----- Left Side 3D Avatars---------*/}
         <div className="hidden lg:block absolute bottom-0 -pb-80 -left-10 w-[45%] max-w-[650px] z-10 pointer-events-none">
@@ -28,7 +28,7 @@ const Hero = () => {
         {/*-------- Center text content---------- */}
 
         <div className="relative z-20 w-full lg:w-[60%] lg:ml-auto lg:mr-12 flex flex-col items-center text-center pt-10">
-          <div className="border border-accent text-accent px-4 pb-0.5 rounded-lg flex items-center space-x-2 text-sm font-semibold mb-6 bg-white/50 backdrop-blur-md">
+          <div className="border border-blue-600 text-blue-600 px-4 pb-0.5 rounded-lg flex items-center space-x-2 text-sm font-semibold mb-6 bg-transparent backdrop-blur-md">
             <span>Discover, Engage, Empower</span>
             <RxSlider size={16} className="stroke-1 mt-0.5" />
           </div>
