@@ -57,7 +57,7 @@ const Stats = () => {
             </h1>
           </div>
 
-          <button className="flex w-fit items-center justify-between gap-4 self-start rounded-2xl border border-[#3b82f6] bg-gradient-to-b from-[#2f7bff] to-[#2348c5] py-1 pl-7 pr-2 text-white cursor-pointer">
+          <button className="flex w-fit items-center justify-between gap-4 self-start rounded-2xl border border-[#3b82f6] bg-gradient-to-b from-[#2f7bff] to-[#2348c5] py-1 pl-6 pr-1 text-white cursor-pointer">
             <span className="text-sm font-bold uppercase tracking-wide sm:text-base">
               View Jobs
             </span>

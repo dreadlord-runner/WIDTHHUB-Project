@@ -47,7 +47,7 @@ const ClientExperience = () => {
                   />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg">Sarah Jenkins</h4>
+                  <h4 className="font-bold text-lg">Jenny Joester</h4>
                   <p className="text-blue-400 text-sm">HR Director,TechCorp</p>
                 </div>
               </div>

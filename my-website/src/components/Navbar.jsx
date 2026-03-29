@@ -54,26 +54,26 @@ const Navbar = () => {
 
         {/*--------- LINKS---------- */}
         <ul className="hidden lg:flex items-center space-x-8 font-semibold text-primary uppercase">
-          <li className="hover:bg-primary hover:text-white text-primary px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
+          <li className="hover:bg-gradient-to-b from-blue-600 to-blue-900 hover:text-white text-primary px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
             <span>Home</span>
             <span>+</span>
           </li>
-          <li className="hover:bg-primary hover:text-white text-primary px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
+          <li className="hover:bg-gradient-to-b from-blue-600 to-blue-900 hover:text-white text-primary px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
             <span>About us</span>
           </li>
-          <li className="hover:bg-primary hover:text-white text-primary  px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
+          <li className="hover:bg-gradient-to-b from-blue-600 to-blue-900 hover:text-white text-primary  px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
             <span>Blog</span>
             <span>+</span>
           </li>
-          <li className="hover:bg-primary hover:text-white text-primary  px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
+          <li className="hover:bg-gradient-to-b from-blue-600 to-blue-900 hover:text-white text-primary  px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
             <span>Services</span>
             <span>+</span>
           </li>
-          <li className="hover:bg-primary hover:text-white text-primary  px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
+          <li className="hover:bg-gradient-to-b from-blue-600 to-blue-900 hover:text-white text-primary  px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
             <span>Pages</span>
             <span>+</span>
           </li>
-          <li className="hover:bg-primary hover:text-white text-primary  px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
+          <li className="hover:bg-gradient-to-b from-blue-600 to-blue-900 hover:text-white text-primary  px-5 py-1 rounded-xl flex items-center space-x-1 cursor-pointer">
             <span>Contact us</span>
           </li>
         </ul>
